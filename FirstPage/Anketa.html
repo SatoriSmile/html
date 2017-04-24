@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <link rel="icon" href="images/hrvatska.jpg">
+    <link rel="stylesheet" href="css/index_3.css">
+</head>
+
+<body bgcolor="#d3d3d3">
+
+    <div class="wrapper">
+    <header>
+
+    </header>
+    <div class="fixed_block">
+
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="Main.html">Главная</a>
+                </li>
+                <li>
+                    <a href="touch.html">Как с нами связаться</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="row">
+    <div class="col-12">
+            <form action="#" method="post" id="main">
+    <fieldset>
+        <legend align="center">Опросный лист (Виза в Хорватию)</legend>
+    <fieldset>
+        <legend><u>1.Личные данные</u></legend>
+        <div>
+            <label for="text1">Фамилия</label>
+            <input id="text1" type="text" required>
+        </div>
+        <div>
+            <label for="text2">Имя</label>
+            <input id="text2" type="text" required>
+        </div>
+        <div>
+            <label for="text3">Отчество</label>
+            <input id="text3" type="text" required>
+        </div>
+        <div>
+            <label>Пол</label>
+            <label><input name="sex" type="radio">муж.</label>
+            <label><input name="sex" type="radio">жен.</label>
+        </div>
+        <div>
+            <label for="data">Дата рождения</label>
+            <input id="data" type="data" placeholder="дд/мм/гггг" required>
+        </div>
+        <div>
+            <label for="text8">Место рождения</label>
+            <input id="text8" type="data" placeholder="страна, город" required>
+        </div>
+        <div>
+            <label>Гражданство</label>
+            <label><input name="massage" type="checkbox">РФ</label>
+            <label><input name="massage" type="checkbox">Другое</label>
+        </div>
+        <div>
+            <label>Семейное положение</label>
+            <label><input name="mariage" type="radio">женат(замужем)</label>
+            <label><input name="mariage" type="radio">холост(а)</label>
+            <label><input name="mariage" type="radio">разведен(а)</label>
+        </div>
+        <div>
+            <label for="textarea">Дети</label>
+            <textarea ID="textarea" cols="10"
+                    rows="6"
+                    placeholder="Если едут с Вами, ФИО и дата рождения"
+                    required
+                    autofocus
+            ></textarea>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend><u>2.Место работы/учебы</u></legend>
+        <div>
+            <label for="text4">Название организации</label>
+            <input id="text4" type="text" required>
+        </div>
+        <div>
+            <label for="text5">Адрес организации</label>
+            <input id="text5" type="text" required>
+        </div>
+        <div>
+            <label for="text6">Занимаемая должность</label>
+            <input id="text6" type="text" required>
+        </div>
+        <div>
+            <label for="phone2">Телефон организации</label>
+            <input id="phone2" type="tel" мах="10">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend><u>3.Контакты</u></legend>
+        <div>
+            <label for="phone">Мобильный телефон</label>
+            <input id="phone" type="tel" placeholder="+7(ххх)ххх-хх-хх" required>
+        </div>
+        <div>
+            <label for="phone1">Домашний телефон</label>
+            <input id="phone1" type="tel" мах="10">
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input id="email" type="email">
+        </div>
+        <div>
+            <label for="text7">Адрес проживания</label>
+            <input id="text7" type="text" title="укажите полный адрес" required>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend><u>4.Шенгенские визы выданные за последние 3 года</u></legend>
+        <div>
+            <select autofocus form="main" size="" required>
+                <option value="1">Нет, не выдавались</option>
+                <option value="2">Да</option>
+            </select>
+
+            <select multiple>
+                <option selected value="1">нет</option>
+                <option value="2">Австрия</option>
+                <option value="3">Бельгия</option>
+                <option value="4">Венгрия</option>
+                <option value="5">Германия</option>
+                <option value="6">Греция</option>
+                <option value="7">Дания</option>
+                <option value="8">Исландия</option>
+                <option value="9">Испания</option>
+                <option value="10">Италия</option>
+                <option value="11">Латвия</option>
+                <option value="12">Литва</option>
+                <option value="13">Люксембург</option>
+                <option value="14">Мальта</option>
+                <option value="15">Нидерланды</option>
+                <option value="16">Норвегия</option>
+                <option value="17">Польша</option>
+                <option value="18">Португалия</option>
+                <option value="19">Словакия</option>
+                <option value="20">Словения</option>
+                <option value="21">Финляндия</option>
+                <option value="22">Франция</option>
+                <option value="23">Чехия</option>
+                <option value="24">Швейцария</option>
+                <option value="25">Швеция</option>
+                <option value="26">Эстония</option>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset>
+            <legend><u>5.Отпечатки пальцев при подаче документов на Шенген</u></legend>
+            <div>
+                <label><input name="sex" type="radio">Нет, отпечатки не сдавались</label>
+                <label><input name="sex" type="radio">Да</label>
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend><u>6.Цель визита в Хорватию</u></legend>
+        <div>
+            <label><input name="massage" type="checkbox">Туризм</label>
+            <label><input name="massage" type="checkbox">Учеба</label>
+            <label><input name="massage" type="checkbox">Работа</label>
+        </div>
+    </fieldset>
+    <fieldset>
+            <legend><u>7.Загрузка необходимых документов</u></legend>
+            <div>
+                <label for="multi">Ваши документы</label>
+                <input ID="multi" type="file" multiple>
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend><u>8.Что делать с анкетой</u></legend>
+        <div>
+            <input type="submit" formaction="#" value="отправить">
+            <input type="reset" value="стереть">
+        </div>
+    </fieldset>
+    </fieldset>
+
+
+    </form>
+    </div>
+    </div>
+        <footer>
+            <p align="left" class="foot-text">
+                2017 all rights reserved © SatoriSmile
+            </p>
+        </footer>
+
+    </div>
+</body>
+</html>

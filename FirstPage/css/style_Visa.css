@@ -1,0 +1,61 @@
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #d3d3d3; }
+
+.fixed_block {position: fixed;
+    left: 155px; right: 0; top: 105px;
+    z-index: 2;
+    width: 960px;}
+
+header {
+    height: 100px;
+    border: indigo solid;
+    box-shadow: 0 0 25px blue;
+}
+
+footer {
+    height: 55px;
+    border: indigo solid;
+    box-shadow: 0 0 25px blue;
+}
+
+/*----------------------------------------------*/
+
+.menu li {
+    display:inline-block;
+    padding: 5px;
+    background: deepskyblue;
+    list-style-type: none;}
+
+.menu a { display: inline-block; color: black; text-decoration: none;}
+
+.menu li:hover {background: white;}
+.menu li:active {background: blue;}
+
+.img_block {
+    height: 300px;
+    margin-top: 50px;
+    border: indigo solid;
+    color: black;
+    background-image: url("../images/viza-croatia.jpg");
+    background-size: cover;
+    }
+
+
+p{font-style: italic;}
+
+.text1 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-style: normal;
+    font-size: large;
+}
+
+.big_text {
+    columns: 2;
+    text-align: justify;
+
+}
+
+.foot-text{margin-left: 10px;}
