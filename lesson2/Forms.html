@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-Формы</title>
+</head>
+
+<body>
+   <form action="#" method="post" id="main">
+       <!-- target="_" autocomplete="on"-->
+       <fieldset>
+           <!--form="form_id"
+           name=""
+           disabled-->
+
+           <legend>Yahooo</legend>
+           <div>
+               <label for="textField">текстовое поле</label>
+               <input
+               ID="textField"
+               type="text"
+               placeholder="Write bla bla bla"
+               required
+               maxlength="5">
+           </div>
+
+           <div>
+               <label for="passwordField">поле для пароля</label>
+               <input
+                       ID="passwordField"
+                       type="text"
+                       placeholder="remember numbers"
+                       required
+                       maxlength="5">
+           </div>
+
+           <div>
+               <label for="textareafield">много букавок</label>
+               <textarea
+                       ID="textareafield"
+                       cols="4"
+                       rows="6"
+                       maxlength="5"
+                       minlength=""
+                       placeholder=""
+                       required
+                       readonly
+                       autofocus
+               ></textarea>
+           </div>
+
+           <div>
+               <label for="hiddenField">поле для пароля</label>
+               <input
+                       ID="hiddenField"
+                       type="hidden">
+           </div>
+           </fieldset>
+
+       <fieldset>
+           <legend>Загрузка файлов</legend>
+           <div>
+           <label for="fileField">только один файл</label>
+           <input
+                   ID="fileField"
+                   type="file">
+           </div>
+
+           <div>
+               <label for="imaginefileField">только изображение</label>
+               <input
+                       ID="imaginefileField"
+                       type="file">
+           </div>
+
+           <div>
+               <label for="multifileField">много файлов</label>
+               <input
+                       ID="multifileField"
+                       type="file" multiple>
+           </div>
+       </fieldset>
+
+       <fieldset>
+           <legend>переключатели</legend>
+           <fieldset>
+               <legend>одиночная кнопка</legend>
+           <div>
+               <label>
+                   <input type="radio"> только один файл</label>
+               <label>
+                   <input type="radio"> nofile</label>
+           </div>
+       </fieldset>
+           <fieldset>
+               <legend>радио группа</legend>
+               <label>
+               <input name="sex" type="radio"> man</label>
+               <label>
+                   <input name="sex" type="radio"> woman</label>
+               <label>
+                   <input name="sex" type="radio"> nobody</label>
+           </fieldset>
+
+           <fieldset>
+               <legend>Flag</legend>
+               <fieldset>
+                   <legend>одиночная flag</legend>
+                   <div>
+                       <label>
+                           <input type="checkbox">1</label>
+                       <label>
+                           <input type="checkbox">2</label>
+                   </div>
+               </fieldset>
+
+               <fieldset>
+                   <legend>MAny flag</legend>
+                   <div>
+                       <label>
+                           <input name="massage" type="checkbox">1</label>
+                       <label>
+                           <input name="massage" type="checkbox">2</label>
+                       <label>
+                           <input name="massage" type="checkbox">3</label>
+                   </div>
+               </fieldset>
+
+               <fieldset>
+                   <legend>BUTTON</legend>
+
+                   <input type="button" value="ok">
+                   <button type="submit" formaction="#"
+                   formmethod="post"
+                   formnovalidate
+                   value="5"
+                   >
+                       <strong><em>через баттон</em></strong>
+                   </button>
+                   <input type="submit" value="send">
+                   <input type="reset" value="kill evryone">
+
+                   <input type="image" src="../" alt="registration">
+
+               </fieldset>
+
+               <fieldset>
+                   <legend>Поле со списком</legend>
+                   <select autofocus
+                           form="main"
+                           size=""
+                           required
+                           >
+                       <option value="1">one</option>
+                       <option value="2">two</option>
+                       <option selected value="3">three</option>
+                       <option value="4">four</option>
+                   </select>
+
+                   <select multiple>
+                       <option value="1">one</option>
+                       <option value="2">two</option>
+                       <option value="3">three</option>
+                       <option value="4">four</option>
+                   </select>
+
+                   <select size="" multiple>
+                       <optgroup label="Group A">
+                       <option value="1">one</option>
+                       <option value="2">two</option>
+                       <option value="3">three</option>
+                       <option value="4">four</option>
+                       </optgroup>
+                       <optgroup  label="Group B">
+                           <option value="1">one</option>
+                           <option value="2">two</option>
+                           <option value="3">three</option>
+                           <option value="4">four</option>
+                       </optgroup>
+                   </select>
+               </fieldset>
+
+               <fieldset>
+                   <legend>E-mail</legend>
+                   <div>
+                       <label for="emailFild">E-mail</label>
+                       <input id="emailFild" type="email">
+                   </div>
+                   <div>
+                       <label for="urlFild">Web-adress</label>
+                       <input id="urlFild" type="url">
+                   </div>
+                   <div>
+                       <label for="colorFild">Choose Your Color</label>
+                       <input id="colorFild" type="color" value="purple" >
+                   </div>
+                   <div>
+                   <label for="number">Your number is</label>
+                   <input id="number" type="number" value="9" max="12">
+               </div>
+                   <div>
+                   <label for="range">Your number is</label>
+                   <input id="range" type="range" value="50" max="12">
+               </div>
+                   <div>
+                       <label for="data">Calendar</label>
+                       <input id="data" type="data" value="2017-04-18" >
+                   </div>
+                   <div>
+                       <input  type="datatime">
+                       <input  type="datatime-local" value="2017-04-18T12:18" >
+                       <input  type="time" value="20:44" min="00:00" max="23:59" >
+                   </div>
+                   <div>
+                   <label for="search">Search</label>
+                   <input id="search" type="search" title="найди меня">
+               </div>
+                   <div>
+                       <label for="phone">Phone</label>
+                       <input title="позвони мне позвони" id="phone" type="tel" pattern="2[0-9]{3}-[0-9]{3}" >
+                   </div>
+
+
+
+               </fieldset>
+
+
+   </form>
+</body>
+</html>
