@@ -1,0 +1,98 @@
+/*
+!*как задать отсупы - padding*!
+
+.block {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    padding: 10px; !*со всех сторон один отсуп*!
+    padding: 10px 15px; !*top/bottom - right/left*!
+    padding: 10px 15px 20px; !*top - right/left- bottom*!
+    padding: 10px 15px 20px 25px; !*top - right-bottom- left*!
+}
+
+!*как задать ополя - margin*!
+
+.block {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    margin: 10px; !*со всех сторон один отсуп*!
+    margin: 10px 15px; !*top/bottom - right/left*!
+    margin: 10px 15px 20px; !*top - right/left- bottom*!
+    margin: 10px 15px 20px 25px;} !*top - right-bottom- left*!
+
+!*как задать рамку - border*!
+
+.block {
+    !*border: ширина стиль цвет;*!
+    border: 1px dashed red;}*/
+
+.block {
+    margin: 40px;
+    padding: 90px;
+    border:  2px solid indigo;
+    height: 300px;
+    width: 400px;
+    background: ivory;
+}
+
+/*
+.block1{
+    box-sizing: content-box; !*фш = ш+ло+по+лп+пп*!
+    box-sizing: border-box; !*фш= ш+лп+пп*!
+}*/
+
+/*
+.block {
+    display: none;
+    visibility: hidden | collapse | visible;
+}
+*/
+
+/* margin collapse - схлопыание отсупов вертикальных
+1. оба отсупа  положительный - возьмет наибольший
+2. если один отрицательный и один положительный, то вычитаются
+3. если отрицательные отупы - то складываются*/
+
+/*ВЕРСТКА СЛОЯМИ*/
+/* плавующий элемент*/
+/*
+float: left | right |none
+ 1. становится блочным
+ 2. обтекание строчными
+ 3. по центру быть не может */
+
+.block {
+    float: right;
+}
+
+/*p{    clear: both;} убирает все свойства от флоат*/
+
+.bord {
+    width: 200px;
+    height: 200px;
+    border:  2px solid indigo;
+    overflow: hidden;
+}
+
+POSITION
+
+.pos {
+    position: static; /*по умолчанию*/
+    position: fixed; /*/фиксированный относительно окна браузера*/
+    position: absolute; /*/ абсолютно от ближайшего элемента*/
+    position: relative; /*подвигать элемент*/
+}
+
+/*Задание координат*/
+/*top:13px
+left:0px;
+right:
+bottom
+
+когда верстают сеткой - окно делят на колонки 12 шт.*/
