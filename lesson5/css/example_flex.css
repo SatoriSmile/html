@@ -1,0 +1,91 @@
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/*распределение в линию*/
+.line {
+    display: flex;
+}
+
+/*задаю рамку*/
+.border {
+    border: 1px indigo solid;
+}
+
+/*контейнер занимающий 1/3*/
+.box1_3 {flex: 1;
+         margin-left: 10px; }
+
+/*контейнер занимающий 2/3*/
+.box2_3 {flex: 2;
+         margin-right: 10px;
+         }
+
+/*распределение по колонкам*/
+.column {display: flex;
+         flex-direction: column;
+}
+
+/*отступы для блоков сказок*/
+
+.Rocky {margin-top: 10px;} /*нижняя сказка*/
+
+.terminator {margin-bottom: 10px; /*средняя сказка*/
+             margin-top: 10px;}
+
+.Rembo {height: 200px; /*блок верхней сказки*/
+        margin-bottom: 10px;}
+
+.Rembo-img {flex: 1;   /*для картинки*/
+    background: aqua;}
+
+.Rembo-text {flex: 2;} /*для текста*/
+
+
+
+.Rocky, .terminator, .Rembo-text {background: chocolate;}
+.Rocky, .terminator {padding: 15px;}
+.Rembo-text{padding-left: 15px;}
+
+/*при наведении на блоки подсветка тени*/
+.Rocky:hover, .terminator:hover, .Rembo:hover {box-shadow: 0 0 15px indigo;}
+
+/*горизонтальный блок картинка-текст*/
+.fish {flex: 1;
+    margin: 10px;
+    /*height: 50%*/;
+    }
+
+.fish-text {flex:1;
+       background: coral;}
+
+.fish-img {flex: 1;
+            background: aqua;}
+
+
+/*2 вертикальных блока картинка-текст*/
+.Tail1 {flex: 1;
+        margin: 10px;
+        /*height: 50%;*/}
+
+.tail1-img {flex: 1;
+    background: aqua;}
+
+.tail1-text {flex: 1;}
+
+
+.Tail2 {flex: 1;
+        margin: 10px;
+        /*height: 50%;*/}
+
+.tail2-img {flex: 1;
+    background: aqua;}
+
+.tail2-text {flex: 1;}
+
+.fish-text, .tail1-text, .tail2-text  {padding: 15px;}
+
+/*при наведении на блоки подсветка тени*/
+
+.fish:hover, .Tail1:hover, .Tail2:hover {box-shadow: 0 0 15px indigo;}

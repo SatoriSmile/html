@@ -1,0 +1,69 @@
+p{
+    background: plum;
+    margin: 10px;
+}
+
+.conteiner1 {
+    display: flex; /*элемент станет блочным*/
+    background: indigo;
+    justify-content: flex-end;
+    /*justify-content: center; по центру
+    justify-content: space-around; выравнивание по ровну
+    justify-content: space-between; первый вначале, последний в конце все что между поровну*/
+}
+
+.conteiner2 {
+    display: flex;
+    background: darkblue;
+    align-items: stretch; /*растянуть*/
+  /*  align-items: flex-end; по низу
+    align-items: flex-start; по верху*/
+    /*align-items: baseline; по базовой линии*/
+}
+
+.conteiner3 {
+    display: flex;
+    background: darkviolet;
+    align-items: stretch;
+
+   /* flex-direction: row; в ряд
+    flex-direction: row-reverse; в ряд но наооборот*/
+    flex-direction: column; /*по вертикали*/
+    /*flex-direction: column-reverse; по вертикали но наооборот*/
+}
+
+.conteiner4 {
+    display: flex;
+    background: green;
+    align-items: stretch;
+    width: 300px;
+    flex-wrap: wrap;/* wrap-revers | nowrap*/
+}
+
+.conteiner5 {
+    display: flex;
+    background: lightgrey;
+    align-items: stretch;
+    width: 300px;
+    flex-wrap: wrap; height: 400px; flex-direction: row; /*обязательны эти 3*/
+    align-content: flex-end; /*посмотри что еще может*/
+}
+
+.conteiner6 {
+    display: flex;
+    background: cyan;
+    align-items: stretch;}
+
+.order {
+    order: 2;
+}
+
+.flex-basic {
+    flex-basis: 100px;
+   /* flex-grow: 3; !*растягивает элемент, число указывает во сколько раз*!
+    flex-shrink: 2; !*уменьшает элемент, число указывает во сколько раз*!*/
+}
+
+. align {
+    align-self: flex-end;
+}
