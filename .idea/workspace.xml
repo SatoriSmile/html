@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29835173-d9cb-41b4-9116-aef9f1b23959" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson2/Forms.html" afterPath="$PROJECT_DIR$/lesson2/Forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson3/style.css" afterPath="$PROJECT_DIR$/lesson3/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +44,6 @@
         <option value="$PROJECT_DIR$/lesson5/css/example_flex.css" />
         <option value="$PROJECT_DIR$/lesson6/gridProj/index.html" />
         <option value="$PROJECT_DIR$/lesson6/gridProj/css/style.css" />
-        <option value="$PROJECT_DIR$/lesson3/style.css" />
         <option value="$PROJECT_DIR$/HW/index_hw.html" />
         <option value="$PROJECT_DIR$/HW/css/style_hw.css" />
         <option value="$PROJECT_DIR$/FirstProject/CSS/index.css" />
@@ -55,6 +53,7 @@
         <option value="$PROJECT_DIR$/FirstPage/Main.html" />
         <option value="$PROJECT_DIR$/FirstPage/css/style_FP.css" />
         <option value="$PROJECT_DIR$/lesson2/Forms.html" />
+        <option value="$PROJECT_DIR$/lesson3/style.css" />
       </list>
     </option>
   </component>
@@ -96,6 +95,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,12 +245,12 @@
       <workItem from="1494147001954" duration="15494000" />
       <workItem from="1494231757341" duration="8963000" />
       <workItem from="1494347764997" duration="16157000" />
-      <workItem from="1494366950564" duration="67000" />
+      <workItem from="1494366950564" duration="178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113704000" />
+    <option name="totallyTimeSpent" value="113815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -452,14 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstProject/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -472,6 +477,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3485">
           <caret line="223" column="26" lean-forward="false" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding />
         </state>
       </provider>
