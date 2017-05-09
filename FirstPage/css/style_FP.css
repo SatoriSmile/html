@@ -19,6 +19,8 @@ header {
     box-shadow: 0 0 25px blue;
 }
 
+
+
 /*MENU*/
 .menu li {
     display:inline-block;
@@ -30,20 +32,20 @@ header {
 
 .menu a { display: block; color: black; text-decoration: none;}
 
-.submenu {-webkit-transform: scaleY(0);
+.sub_menu {-webkit-transform: scaleY(0);
           -ms-transform: scaleY(0);
           transform: scaleY(0);}
 
-.submenu {transform-origin: 0 0;}
-.submenu {position: absolute;
+.sub_menu {transform-origin: 0 0;}
+.sub_menu {position: absolute;
           top: 100%;
           left: 0;
-          width: 220%;
+          width: 100%;
           background: transparent;
-          z-index: 10;}
+         }
 
 
-.menu li:hover .submenu {-webkit-transform: scaleY(1); -ms-transform: scaleY(1); transform: scaleY(1);}
+.menu li:hover .sub_menu {-webkit-transform: scaleY(1); -ms-transform: scaleY(1); transform: scaleY(1);}
 .menu li:hover {background: white;}
 .menu li:active {background: blue;}
 
@@ -162,4 +164,20 @@ footer {
     box-shadow: 0 0 25px blue;
     position: relative;
     top:-430px;
+}
+
+@media screen and (max-width: 320px){
+
+    .col-min-12 {width: 100%;}
+
+    .info_block1, .info_block2, .info_block3, .info_block4, .info_block5, .info_block6 {margin-left: 0;
+                 margin-right: 0;
+    }
+
+    .big_text {
+        columns: 1;
+        text-align: justify;
+        position: relative;
+        top:-430px;
+    }
 }

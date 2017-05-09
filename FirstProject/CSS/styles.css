@@ -1,0 +1,315 @@
+body {background-color: whitesmoke;
+      font-family: "UniversLTStd-Cn",Helvetica, Arial, sans-serif;}
+
+/*делаю slider*/
+
+.slide1 {background-image: url("../images/slide_1.jpg")}
+
+.slide2 {background-image: url("../images/slide_2.jpg")}
+
+.slide3 {background-image: url("../images/slide_3.jpg")}
+
+.slide4 {background-image: url("../images/slide_4.jpg")}
+
+.slide1, .slide2, .slide3, .slide4 {height: 496px; background-size: cover;}
+
+li.active {display: block;}
+
+.slide1, .slide2, .slide3, .slide4 {display: none;}
+
+
+.wrapper {
+    margin:0 auto;
+    width: 960px;}
+
+/*делаю menu*/
+
+.menu {height: 54px;
+       border: 1px solid transparent;
+       padding-top: 12px;
+       padding-bottom: 12px;}
+
+.menu li {display: inline-block;
+          background: none;
+
+          position: relative;}
+
+.main_text {display: inline-block;
+            font-size: 22px;
+            margin-right: 80px;}
+
+.menu_list {display: block;}
+
+.menu a {color: black;
+         text-decoration: none;
+         display: block;
+         outline: none;
+         height: inherit;
+         margin-left: 18px;}
+
+.menu a:hover {color: #31b0d5;}
+.menu li:active {background: #31b0d5;}
+
+.sub_menu {position: absolute;
+           top: 100%;
+           left: 0px;
+           width: 120%;
+           background: whitesmoke;}
+
+.sub_menu {visibility: hidden;}
+.menu li:hover .sub_menu {visibility: visible; z-index: 2;}
+
+/*почтовые дела*/
+.email { height: 150px;
+         border: 1px solid transparent;
+         background-color: rgb(23, 40, 56);
+         color: white;
+         margin-top: 0.625em;
+         margin-bottom: 0.625em;}
+
+.btn_email {display: block;
+            float: inherit;}
+
+.field {width: 373px;
+        height: 35px;
+        background-color: rgb(23, 40, 56);
+        color: white;
+        border: transparent;
+        border-bottom: 2px solid white;
+        font-size: 18px;
+        margin-top: 10px;}
+
+
+/*создаю блоки*/
+
+/*блоки новостей*/
+.text_news {height: 54px;
+            border: 1px solid transparent;
+            font-size: 40px;
+            display: inline;
+            margin-top: 56px;
+            margin-bottom: 25px;}
+
+.head_news {display: inline-block;
+            width: 120px;}
+
+.btn_news {display: block;
+           float: right;}
+
+.info-img1, .info-img2, .info-img3 { height: 174px;
+                                     border: 1px solid transparent;
+                                     margin-top: 0.625em;}
+
+.info-img1 {background-image: url("../images/info_block1.png");
+            background-size: cover;}
+
+.info-img2 {background-image: url("../images/info_block2.png");
+            background-size: cover;}
+
+.info-img3 {background-image: url("../images/info_block3.jpg");
+            background-size: cover;}
+
+
+.info_block1, .info_block2, .info_block3 {height: 414px;
+                                          border: 1px solid transparent;
+                                          background-color: white;
+                                          font-size: 25px;
+                                          margin-bottom: 0.625em;
+                                          padding: 15px;
+                                          position: relative;}
+
+
+/*блоки инстаграмма*/
+.text_inst {height: 54px;
+            border: 1px solid transparent;
+            display: inline-block;
+            font-size: 40px;
+            margin-top: 56px;
+            margin-bottom: 25px;}
+
+.head_inst {display: inline-block;
+            width: auto;}
+
+.btn_inst {display: block;
+           float: right;}
+
+.img_block {
+            height: 230px;
+            border: 1px solid whitesmoke;
+            background-color: white;
+            margin-top: 0.625em;
+            margin-bottom: 0.625em;
+            position: relative;}
+
+p.leftstr, p.rightstr {float: left;}
+p.rightstr {text-align: left;}
+p.leftstr {font-size: 40px;}
+p.rightstr {font-size: 32px;}
+
+
+
+.img1 {background-image: url("../images/inst1.jpg");
+       background-size: cover;}
+
+.img2 {background-image: url("../images/inst2.jpg");
+       background-size: cover;}
+
+.img3 {background-image: url("../images/inst3.jpg");
+       background-size: cover;}
+
+.img4 {background-image: url("../images/inst4.jpg");
+       background-size: cover;}
+
+.img5 {background-image: url("../images/inst5.jpg");
+       background-size: cover;}
+
+.img6 {background-image: url("../images/inst6.jpg");
+       background-size: cover;}
+
+.img7 {background-image: url("../images/inst7.jpg");
+       background-size: cover;}
+
+.img8 {background-image: url("../images/inst8.jpg");
+       background-size: cover;}
+
+
+/*блоки видео*/
+.text_video {height: 54px;
+             border: 1px solid transparent;
+             display: inline-block;
+             font-size: 40px;
+             margin-top: 56px;
+             margin-bottom: 25px;}
+
+.head_video {display: inline-block;
+             width: 150px;}
+
+.btn_video {display: block;
+            float: right;}
+
+.video_block {margin-top: 0.625em;
+              margin-bottom: 50px;}
+
+.video1 {height: 362px;
+         border: 1px solid transparent;}
+
+.video2 {height: 362px;
+         border: 1px solid transparent;}
+
+
+/*блоки магазин и твиттер*/
+
+.merch { height: 446px;
+         border: 1px solid transparent;
+         background-color: rgb(83, 173, 199);
+         color: white;
+         margin-top: 0.625em;
+         margin-bottom: 0.625em;}
+
+.tweet { height: 446px;
+         border: 1px solid transparent;
+         background-color: rgb(23, 40, 56);
+         color: white;
+         margin-top: 0.625em;
+         margin-bottom: 0.625em;}
+
+
+/*все что касается кнопок*/
+
+.btn {border-color: transparent;
+      background: rgb(83, 173, 199);
+      cursor:pointer;
+      font-size: 15px;
+      color: white;
+      padding-left: 29px;
+      padding-right: 29px;}
+
+.btn:hover {background: rgb(23, 40, 56);
+            color: white;}
+
+.btn3 {border-color: transparent;
+       background: rgb(83, 173, 199);
+       cursor:pointer;
+       font-size: 25px;
+       color: white;
+       padding-left: 29px;
+       padding-right: 29px;}
+
+.btn3:hover {background: white;
+             color: rgb(23, 40, 56);}
+
+.btn1   {border-color: transparent;
+         background: white;
+         cursor:pointer;
+         font-size: 14px;
+         color: rgb(83, 173, 199);
+         padding-left: 29px;
+         padding-right: 29px;
+         }
+
+.btn1:hover {background: rgb(23, 40, 56);}
+
+.btn2   {border-color: transparent;
+         background: white;
+         cursor:pointer;
+         font-size: 14px;
+         color: rgb(23, 40, 56);
+         padding-left: 29px;
+         padding-right: 29px;}
+
+.btn2:hover {background: rgb(83, 173, 199);}
+
+label {padding-top: 30px;
+       padding-left: 30px;}
+
+/*футер и ежик с ним*/
+
+.symbols {margin-top: 70px;
+          height: 65px;
+          background-color: white;}
+
+footer {height: 65px;
+        background-color: rgb(0, 0, 0);}
+
+.foot {display: inline-block;
+       padding-top: 25px;}
+
+.foot li {display: inline-block;
+          background: none;
+          margin-left: 3px;
+          /*border-left: 1px solid white;*/
+          position: relative;}
+
+.foot a {color: white;
+         text-decoration: none;
+         display: block;
+         outline: none;
+         font-size: 10px;
+         height: inherit;}
+
+.foot_text {display: inline;
+            color: white;
+            font-size: 10px;
+            padding-right: 100px;}
+
+.foot_menu {display: block;}
+
+.foot a:hover {color: rgb(83, 173, 199);}
+
+/*Работа с адаптацией страницы*/
+
+@media screen and (max-width: 480px) {
+
+    .col-min-12 {width: 50%;}
+
+    .head_news {display: inline-block;
+        width: 120px;}
+
+    .btn_news {display: block;
+               float: right;}
+
+    .slide1, .slide2, .slide3, .slide4 {height: 250px;
+                                        width: 100%;
+                                        background-size: cover;}
+
+}
